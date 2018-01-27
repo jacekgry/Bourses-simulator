@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CurrenciesInfoController">
+   <children>
+      <Label fx:id="titleLabel" text="Label">
+         <VBox.margin>
+            <Insets left="275.0" />
+         </VBox.margin></Label>
+      <TableView fx:id="currenciesTableView" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="currencyColumn" prefWidth="286.0" text="Currency" />
+          <TableColumn fx:id="amountOfCurrencyColumn" prefWidth="313.0" text="Amount" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>

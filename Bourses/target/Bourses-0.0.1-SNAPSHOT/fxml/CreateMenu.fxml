@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CreateMenuController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="createInvestorButton" minHeight="80.0" minWidth="300.0" mnemonicParsing="false" onAction="#createInvestorButtonAction" text="%create.investor">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="createInvestmentFundButton" minHeight="80.0" minWidth="300.0" mnemonicParsing="false" onAction="#createInvestmentFundButtonAction" text="%create.investmentFund">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets left="45.0" top="10.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="createCompanyButton" minHeight="80.0" minWidth="300.0" mnemonicParsing="false" onAction="#createCompanyButtonAction" text="%create.company">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin></Button>
+            <Button fx:id="createStockExchangeButton" minHeight="80.0" minWidth="300.0" mnemonicParsing="false" onAction="#createStockExchangeButtonAction" text="%create.stockExchange" />
+         </children>
+         <padding>
+            <Insets left="45.0" top="10.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="87.0" prefWidth="655.0">
+         <children>
+            <Button fx:id="createCurrencyButton" minHeight="80.0" minWidth="300.0" mnemonicParsing="false" onAction="#createCurrencyButtonAction" text="%create.currency">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="createCurrenciesMarketButton" minHeight="80.0" minWidth="300.0" mnemonicParsing="false" onAction="#createCurrenciesMarketButtonAction" text="%create.currenciesMarket" />
+         </children>
+         <VBox.margin>
+            <Insets left="45.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="createRawMaterialButton" minHeight="80.0" minWidth="300.0" mnemonicParsing="false" onAction="#createRawMaterialButtonAction" text="%create.rawMaterial">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="createRawMaterialsMarketButton" minHeight="80.0" minWidth="300.0" mnemonicParsing="false" onAction="#createRawMaterialsMarketButtonAction" text="%create.rawMaterialsMarket" />
+         </children>
+         <VBox.margin>
+            <Insets left="45.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

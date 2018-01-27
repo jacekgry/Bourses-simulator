@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="currenciesTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CurrenciesOverviewController">
+  <columns>
+    <TableColumn fx:id="nameColumn" prefWidth="294.0" text="%name" />
+    <TableColumn fx:id="countriesColumn" minWidth="0.0" prefWidth="220.0" text="%listOfCountries" />
+      <TableColumn fx:id="deleteColumn" prefWidth="149.0" text="%delete" />
+  </columns>
+</TableView>

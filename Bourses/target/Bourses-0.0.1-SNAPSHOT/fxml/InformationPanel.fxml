@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="739.0" prefWidth="1104.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.InformationPanelController">
+   <children>
+      <TabPane fx:id="mainTab" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="757.0" prefWidth="1104.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="investorsTab" text="%investors">
+            <content>
+              <AnchorPane fx:id="investorsAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+          <Tab fx:id="investmentFundsTab" text="%investmentFunds">
+            <content>
+              <AnchorPane fx:id="investmentFundsAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="686.0" prefWidth="1093.0" />
+            </content>
+          </Tab>
+            <Tab fx:id="companiesTab" text="%companies">
+              <content>
+                <AnchorPane fx:id="companiesAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab fx:id="stockExchangesTab" text="%stockExchanges">
+              <content>
+                <AnchorPane fx:id="stockExchangesAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab fx:id="currenciesMarketsTab" text="%currenciesMarkets">
+              <content>
+                <AnchorPane fx:id="currenciesMarketsAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab fx:id="currenciesTab" text="%currencies">
+              <content>
+                <AnchorPane fx:id="currenciesAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab fx:id="rawMaterialsTab" text="%rawMaterials">
+              <content>
+                <AnchorPane fx:id="rawMaterialsAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+            <Tab fx:id="rawMaterialsMarketsTab" text="%rawMaterialsMarkets">
+              <content>
+                <AnchorPane fx:id="rawMaterialsMarketsAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>

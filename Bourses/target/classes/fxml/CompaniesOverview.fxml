@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="companiesTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CompaniesOverviewController">
+  <columns>
+    <TableColumn fx:id="nameColumn" prefWidth="235.0" text="Name" />
+    <TableColumn fx:id="repurchaseSharesColumn" prefWidth="243.0" text="Repurchase shares" />
+      <TableColumn fx:id="deleteColumn" prefWidth="181.0" text="Delete" />
+  </columns>
+</TableView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="investorsTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.InvestorsOverviewController2">
+  <columns>
+    <TableColumn fx:id="firstNameColumn" prefWidth="112.0" text="%firstName" />
+    <TableColumn fx:id="secondNameColumn" prefWidth="115.0" text="%secondName" />
+      <TableColumn fx:id="PESELColumn" prefWidth="127.0" text="%PESEL" />
+      <TableColumn fx:id="budgetColumn" prefWidth="134.0" text="%budget" />
+      <TableColumn fx:id="moreInfoColumn" prefWidth="100.0" text="%moreInfo" />
+      <TableColumn fx:id="deleteColumn" prefWidth="75.0" text="%delete" />
+  </columns>
+</TableView>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CompanyInfoController">
+   <children>
+      <ImageView fitHeight="186.0" fitWidth="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/company.jpg" />
+         </image>
+         <VBox.margin>
+            <Insets left="170.0" />
+         </VBox.margin>
+      </ImageView>
+      <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="369.0" minWidth="10.0" prefWidth="346.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="10.0" prefWidth="254.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="Name:">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="nameLabel" text="Label" GridPane.columnIndex="1" />
+            <Label text="Stock exchange:" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="stockExchangeLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="First valuation date:" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="firstValuationDateLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label GridPane.rowIndex="3" />
+            <Label text="Opening price:" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="openingPriceLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label text="Current price:" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="currentPriceLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label text="Minimum price:" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Maximum price:" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Revenue:" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Profit:" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Equity capital:" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="minimumPriceLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="maximumPriceLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label fx:id="revenueLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label fx:id="profitLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Label fx:id="equityCapitalLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Label text="Share capital:" GridPane.rowIndex="10">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Volume:" GridPane.rowIndex="11">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Turnover:" GridPane.rowIndex="12">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Number of shares:" GridPane.rowIndex="13">
+               <GridPane.margin>
+                  <Insets left="175.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="shareCapitalLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <Label fx:id="volumeLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <Label fx:id="turnoverLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <Label fx:id="numberOfSharesLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+         </children>
+      </GridPane>
+      <HBox prefHeight="100.0" prefWidth="200.0" />
+   </children>
+</VBox>

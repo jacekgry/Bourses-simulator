@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="leftMenu" prefHeight="474.0" prefWidth="136.0" style="-fx-background-color: #c2c5d6;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LeftMenuController">
+   <children>
+      <ToggleButton fx:id="createButton" mnemonicParsing="false" onAction="#createButtonAction" prefHeight="80.0" prefWidth="125.0" text="%menu.controlPanel">
+         <toggleGroup>
+            <ToggleGroup fx:id="mainMenu" />
+         </toggleGroup>
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/create.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+      <ToggleButton fx:id="informationButton" mnemonicParsing="false" onAction="#informationButtonAction" prefHeight="80.0" prefWidth="125.0" text="%menu.infoPanel" textAlignment="CENTER" toggleGroup="$mainMenu" wrapText="true">
+         <graphic>
+            <ImageView fitHeight="29.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/info.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </ToggleButton>
+      <ToggleButton mnemonicParsing="false" prefHeight="80.0" prefWidth="125.0" text="ToggleButton" toggleGroup="$mainMenu" />
+   </children>
+   <padding>
+      <Insets left="5.0" top="50.0" />
+   </padding>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>

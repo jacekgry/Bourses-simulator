@@ -129,7 +129,6 @@ public class CurrenciesMarketsOverviewController {
 				stage.setScene(scene);
 				stage.showAndWait();
 			}
-
 		});
 
 	}
